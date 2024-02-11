@@ -24,6 +24,7 @@ spec:
           protocol: TCP
 # service type loadbalancer       
 ---
+
 apiVersion: v1
 kind: Service
 metadata:
