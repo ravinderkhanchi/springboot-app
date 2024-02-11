@@ -31,8 +31,6 @@ metadata:
     app: springboot-app
     k8s-app: springboot-app
   name: springboot-app
-  annotations:
-    alb.ingress.kubernetes.io/healthcheck-path: /index.html
 spec:
   ports:
   - name: http
