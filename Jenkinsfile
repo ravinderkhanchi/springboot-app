@@ -1,4 +1,3 @@
-
 pipeline {
    tools {
         maven 'Maven'
